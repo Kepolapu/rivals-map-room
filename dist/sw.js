@@ -1,14 +1,14 @@
 'use strict';
 
 const CACHE_PREFIX = `rivals-map-room-${encodeURIComponent(new URL(self.registration.scope).pathname)}-`;
-const CACHE_NAME = `${CACHE_PREFIX}v2`;
+const CACHE_NAME = `${CACHE_PREFIX}v3`;
 const SHELL_FILES = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest', 'maps.json', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png'];
 const scopeUrl = (path) => new URL(path, self.registration.scope).href;
 
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE_NAME);
-    await cache.addAll(SHELL_FILES.map(scopeUrl));
+    await cache.addAll(SHELL_FILES.map((path) => new Request(scopeUrl(path), { cache: 'reload' })));
     await self.skipWaiting();
   })());
 });
@@ -57,7 +57,7 @@ self.addEventListener('fetch', (event) => {
     event.respondWith((async () => {
       const cache = await caches.open(CACHE_NAME);
       try {
-        const response = await fetch(request);
+        const response = await fetch(request, { cache: 'no-cache' });
         if (response.ok) await cache.put(request, response.clone());
         return response;
       } catch (error) {
