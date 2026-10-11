@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "Rivals Map Room",
+  "short_name": "Map Room",
+  "description": "One map. Every detail. A fullscreen Marvel Rivals map companion.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#111314",
+  "theme_color": "#111314",
+  "icons": [
+    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

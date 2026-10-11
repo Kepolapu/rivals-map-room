@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#111314">
+    <meta name="description" content="Choose a Marvel Rivals battlefield and explore its complete map in a clear, fullscreen view.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Rivals / Map Room</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <main class="site-shell" id="gallery" aria-label="Choose a map">
+      <div class="map-grid" id="catalog" aria-busy="true">
+        <div class="catalog-loading" role="status" aria-label="Loading maps"><span class="spinner" aria-hidden="true"></span></div>
+      </div>
+    </main>
+
+    <section class="viewer" id="viewer" role="dialog" aria-modal="true" aria-labelledby="viewer-title" hidden>
+      <div class="map-stage" id="map-stage" tabindex="0" aria-label="Map view. Drag to move, scroll or pinch to zoom. Press zero to fit the map.">
+        <img id="viewer-image" class="viewer-image" alt="" draggable="false" hidden>
+        <div class="viewer-message" id="viewer-message" role="status"><span class="spinner"></span><span id="viewer-message-text">Loading map…</span></div>
+      </div>
+      <div class="viewer-topbar">
+        <button class="viewer-back" id="viewer-back"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m11 4-6 6 6 6M5 10h12"/></svg><span>All maps</span></button>
+        <div class="viewer-heading"><h2 id="viewer-title"></h2><p id="viewer-mode"></p></div>
+        <button class="icon-button fullscreen-button" id="fullscreen-button" aria-label="Enter fullscreen" title="Enter fullscreen"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 3H3v4m10-4h4v4M3 13v4h4m6 0h4v-4"/></svg></button>
+      </div>
+      <div class="viewer-bottom">
+        <p class="viewer-hint"><span class="desktop-hint">Scroll to zoom <span>·</span> Drag to move</span><span class="touch-hint">Pinch to zoom <span>·</span> Drag to move</span></p>
+        <div class="zoom-controls" aria-label="Map zoom controls">
+          <button class="icon-button" id="zoom-out" aria-label="Zoom out" title="Zoom out (−)"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12"/></svg></button>
+          <span class="zoom-level" id="zoom-level" aria-live="polite">100%</span>
+          <button class="icon-button" id="zoom-in" aria-label="Zoom in" title="Zoom in (+)"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h12M10 4v12"/></svg></button>
+          <span class="control-divider"></span>
+          <button class="fit-button" id="fit-map" title="Fit map (0)"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4H4v3m9-3h3v3M4 13v3h3m6 0h3v-3"/></svg>Fit</button>
+        </div>
+      </div>
+    </section>
+    <div class="toast" id="toast" role="status" hidden></div>
+  </body>
+</html>

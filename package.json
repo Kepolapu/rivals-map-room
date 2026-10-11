@@ -1,0 +1,10 @@
+{
+  "name": "rivals-map-room",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "import:maps": "python scripts/import_maps.py"
+  }
+}
