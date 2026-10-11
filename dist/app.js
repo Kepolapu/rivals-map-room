@@ -120,7 +120,7 @@
     ui.viewer.hidden = false;
     ui.gallery.inert = true;
     document.body.style.overflow = 'hidden';
-    ui.title.textContent = map.fullName || map.name;
+    ui.title.textContent = map.name;
     ui.mode.textContent = `${map.gameMode || map.mode} / ALL DETAILS`;
     ui.image.hidden = true;
     ui.image.alt = `${map.fullName || map.name}, complete annotated ${map.gameMode || map.mode} map`;

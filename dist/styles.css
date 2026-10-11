@@ -42,7 +42,7 @@ svg { width: 20px; height: 20px; flex-shrink: 0; fill: none; stroke: currentColo
 .viewer-back:hover, .icon-button:hover, .fit-button:hover { background: #344032; color: var(--accent); }
 .viewer-back svg { width: 17px; height: 17px; }
 .viewer-heading { min-width: 0; text-shadow: 0 1px 8px #000; }
-.viewer-heading h2 { font-family: var(--display); font-weight: 500; font-size: 24px; letter-spacing: .3px; margin: 0; line-height: 1.15; overflow-wrap: anywhere; white-space: normal; }
+.viewer-heading h2 { font-family: var(--display); font-weight: 500; font-size: 24px; letter-spacing: .3px; margin: 0; line-height: 1.15; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .viewer-heading p { color: #b2bbae; font-size: 9px; text-transform: uppercase; letter-spacing: 1.5px; margin: 5px 0 0; }
 .fullscreen-button { margin-left: auto !important; flex-shrink: 0; background: #171d19d9 !important; border: 1px solid #3e4a40 !important; border-radius: 4px !important; backdrop-filter: blur(12px); }
 .viewer-message { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: 12px; max-width: 85%; color: #c4cdbd; font-size: 13px; line-height: 1.6; text-align: center; pointer-events: none; }
