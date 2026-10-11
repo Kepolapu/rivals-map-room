@@ -1,6 +1,6 @@
 # Rivals Map Room
 
-A buildless progressive web app with a grid of large map-title tiles. Each card shows the complete map title and its game mode. Choose a title to inspect one annotated map fullscreen. All source annotations are baked into the map file. The viewer supports zooming, panning, fitting the whole map and returning to the grid.
+A buildless progressive web app with a grid of large map-title tiles. Each card shows its official location, complete map title and game mode. Choose a title to inspect one annotated map fullscreen. All source annotations are baked into the map file. The viewer supports zooming, panning, fitting the whole map and returning to the grid.
 
 [Source repository](https://github.com/Kepolapu/rivals-map-room) · [GitHub Pages](https://kepolapu.github.io/rivals-map-room/)
 
@@ -20,6 +20,8 @@ Open the printed local URL. HTTPS or localhost is required for service workers a
 The catalog contains only the 17 entries tagged **Competitive** on [MarvelRivals.gg](https://marvelrivals.gg/maps/): 5 Convoy, 5 Convergence, 6 Domination and 1 Resource Rumble. Every entry has an annotated WebP layout. Other maps and their files are excluded.
 
 `dist/maps/<id>.webp` contains one complete original annotated image per map. `dist/maps.json` supplies the catalog, dimensions and exact source links. `source/maps-source.json` records the inspected entries carrying the Competitive tag. No map geometry, health packs or routes are invented.
+
+`source/map-titles.json` records the complete location-qualified map names and links to official Marvel Rivals announcements and patch notes. For example, Spider-Islands is shown with Tokyo 2099, and its full name is Tokyo 2099: Spider-Islands. Maps with standalone official names have no invented location prefix.
 
 To retrieve the verified source files again, install Pillow for Python and run `npm run import:maps`. The importer validates the images and reuses existing valid files. The source asset URLs were read from each map page's Full-size map link.
 

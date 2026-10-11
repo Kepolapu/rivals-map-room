@@ -1,0 +1,19 @@
+{
+  "yggdrasill-path-convoy": { "location": "Yggsgard", "fullName": "Yggsgard: Yggdrasill Path", "nameSourceUrl": "https://www.marvelrivals.com/m/news/official/20240425/40185_1151866.html" },
+  "spider-islands-convoy": { "location": "Tokyo 2099", "fullName": "Tokyo 2099: Spider-Islands", "nameSourceUrl": "https://www.marvelrivals.com/devtalk/20240814/40954_1161278.html" },
+  "midtown-convoy": { "location": "Empire of Eternal Night", "fullName": "Empire of Eternal Night: Midtown", "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20250108/41548_1205270.html" },
+  "arakko-convoy": { "location": "Hellfire Gala", "fullName": "Hellfire Gala: Arakko", "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20250523/41548_1236397.html" },
+  "thebes-convoy": { "location": "", "fullName": "Thebes", "nameSourceUrl": "https://www.marvelrivals.com/20260722/41525_1308589.html" },
+  "shin-shibuya-convergence": { "location": "Tokyo 2099", "fullName": "Tokyo 2099: Shin-Shibuya", "nameSourceUrl": "https://www.marvelrivals.com/devtalk/20240814/40954_1161278.html" },
+  "hall-of-djalia-convergence": { "location": "Intergalactic Empire of Wakanda", "fullName": "Intergalactic Empire of Wakanda: Hall of Djalia", "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20241210/41548_1199072.html" },
+  "central-park-convergence": { "location": "Empire of Eternal Night", "fullName": "Empire of Eternal Night: Central Park", "nameSourceUrl": "https://www.marvelrivals.com/" },
+  "symbiotic-surface-convergence": { "location": "Klyntar", "fullName": "Klyntar: Symbiotic Surface", "nameSourceUrl": "https://www.marvelrivals.com/devdiaries/20241125/40954_1195811.html" },
+  "heart-of-heaven-convergence": { "location": "K'un-Lun", "fullName": "K'un-Lun: Heart of Heaven", "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20250924/41548_1261216.html" },
+  "royal-palace-domination": { "location": "Yggsgard", "fullName": "Yggsgard: Royal Palace", "nameSourceUrl": "https://www.marvelrivals.com/m/news/official/20240425/40185_1151866.html" },
+  "birnin-t-challa-domination": { "location": "Intergalactic Empire of Wakanda", "fullName": "Intergalactic Empire of Wakanda: Birnin T'Challa", "nameSourceUrl": "https://www.marvelrivals.com/devdiaries/20241125/40954_1195811.html" },
+  "hell-s-heaven-domination": { "location": "Hydra Charteris Base", "fullName": "Hydra Charteris Base: Hell's Heaven", "nameSourceUrl": "https://www.marvelrivals.com/devdiaries/20241125/40954_1195811.html" },
+  "krakoa-domination": { "location": "Hellfire Gala", "fullName": "Hellfire Gala: Krakoa", "nameSourceUrl": "https://www.marvelrivals.com/announcements/20250401/40955_1223993.html" },
+  "celestial-husk-domination": { "location": "Klyntar", "fullName": "Klyntar: Celestial Husk", "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20250704/41548_1244963.html" },
+  "god-quarry-domination": { "location": "", "fullName": "God Quarry", "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20260923/41548_1314808.html" },
+  "throne-of-knull-resource-rumble": { "location": "Klyntar", "fullName": "Klyntar: Throne of Knull", "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20250819/41548_1254783.html" }
+}

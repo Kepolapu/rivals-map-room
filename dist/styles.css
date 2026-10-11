@@ -19,6 +19,7 @@ svg { width: 20px; height: 20px; flex-shrink: 0; fill: none; stroke: currentColo
 .map-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
 .map-tile { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-width: 0; min-height: 0; padding: 5px 22px; background: var(--panel); border: 1px solid #343a3b; border-radius: 7px; font-size: clamp(23px, 2.1vw, 32px); font-weight: 650; line-height: 1.2; letter-spacing: -.55px; text-align: center; overflow-wrap: anywhere; transition: background .18s, border-color .18s, transform .18s, color .18s; }
 .tile-title { display: block; width: 100%; white-space: normal; overflow: visible; }
+.tile-location { display: block; max-width: 100%; color: #c7ceca; font: 600 13px/1.35 var(--font); letter-spacing: .02em; white-space: normal; }
 .tile-mode { display: block; max-width: 100%; color: #aab3b0; font: 600 12px/1.45 var(--font); letter-spacing: .07em; text-transform: uppercase; white-space: normal; }
 .map-tile:hover:not(:disabled) { background: #252a26; border-color: #c4b65c; color: var(--accent); transform: translateY(-2px); }
 .map-tile:active:not(:disabled) { transform: none; }
@@ -41,7 +42,7 @@ svg { width: 20px; height: 20px; flex-shrink: 0; fill: none; stroke: currentColo
 .viewer-back:hover, .icon-button:hover, .fit-button:hover { background: #344032; color: var(--accent); }
 .viewer-back svg { width: 17px; height: 17px; }
 .viewer-heading { min-width: 0; text-shadow: 0 1px 8px #000; }
-.viewer-heading h2 { font-family: var(--display); font-weight: 500; font-size: 24px; letter-spacing: .3px; margin: 0; line-height: 1.15; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.viewer-heading h2 { font-family: var(--display); font-weight: 500; font-size: 24px; letter-spacing: .3px; margin: 0; line-height: 1.15; overflow-wrap: anywhere; white-space: normal; }
 .viewer-heading p { color: #b2bbae; font-size: 9px; text-transform: uppercase; letter-spacing: 1.5px; margin: 5px 0 0; }
 .fullscreen-button { margin-left: auto !important; flex-shrink: 0; background: #171d19d9 !important; border: 1px solid #3e4a40 !important; border-radius: 4px !important; backdrop-filter: blur(12px); }
 .viewer-message { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: flex; align-items: center; gap: 12px; max-width: 85%; color: #c4cdbd; font-size: 13px; line-height: 1.6; text-align: center; pointer-events: none; }

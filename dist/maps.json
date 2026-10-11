@@ -9,7 +9,10 @@
     "height": 1249,
     "sourceUrl": "https://marvelrivals.gg/maps/yggdrasill-path-convoy/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/yggdrasill-path-convoy-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/yggdrasill-path-convoy-layout-annotated.webp",
+    "location": "Yggsgard",
+    "fullName": "Yggsgard: Yggdrasill Path",
+    "nameSourceUrl": "https://www.marvelrivals.com/m/news/official/20240425/40185_1151866.html"
   },
   {
     "id": "spider-islands-convoy",
@@ -21,7 +24,10 @@
     "height": 1183,
     "sourceUrl": "https://marvelrivals.gg/maps/spider-islands-convoy/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/spider-islands-convoy-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/spider-islands-convoy-layout-annotated.webp",
+    "location": "Tokyo 2099",
+    "fullName": "Tokyo 2099: Spider-Islands",
+    "nameSourceUrl": "https://www.marvelrivals.com/devtalk/20240814/40954_1161278.html"
   },
   {
     "id": "midtown-convoy",
@@ -33,7 +39,10 @@
     "height": 2048,
     "sourceUrl": "https://marvelrivals.gg/maps/midtown-convoy/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/midtown-convoy-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/midtown-convoy-layout-annotated.webp",
+    "location": "Empire of Eternal Night",
+    "fullName": "Empire of Eternal Night: Midtown",
+    "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20250108/41548_1205270.html"
   },
   {
     "id": "arakko-convoy",
@@ -45,7 +54,10 @@
     "height": 2048,
     "sourceUrl": "https://marvelrivals.gg/maps/arakko-convoy/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/arakko-convoy-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/arakko-convoy-layout-annotated.webp",
+    "location": "Hellfire Gala",
+    "fullName": "Hellfire Gala: Arakko",
+    "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20250523/41548_1236397.html"
   },
   {
     "id": "thebes-convoy",
@@ -57,7 +69,10 @@
     "height": 1626,
     "sourceUrl": "https://marvelrivals.gg/maps/thebes-convoy/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/thebes-convoy-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/thebes-convoy-layout-annotated.webp",
+    "location": "",
+    "fullName": "Thebes",
+    "nameSourceUrl": "https://www.marvelrivals.com/20260722/41525_1308589.html"
   },
   {
     "id": "shin-shibuya-convergence",
@@ -69,7 +84,10 @@
     "height": 1517,
     "sourceUrl": "https://marvelrivals.gg/maps/shin-shibuya-convergence/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/shin-shibuya-convergence-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/shin-shibuya-convergence-layout-annotated.webp",
+    "location": "Tokyo 2099",
+    "fullName": "Tokyo 2099: Shin-Shibuya",
+    "nameSourceUrl": "https://www.marvelrivals.com/devtalk/20240814/40954_1161278.html"
   },
   {
     "id": "hall-of-djalia-convergence",
@@ -81,7 +99,10 @@
     "height": 2048,
     "sourceUrl": "https://marvelrivals.gg/maps/hall-of-djalia-convergence/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/hall-of-djalia-convergence-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/hall-of-djalia-convergence-layout-annotated.webp",
+    "location": "Intergalactic Empire of Wakanda",
+    "fullName": "Intergalactic Empire of Wakanda: Hall of Djalia",
+    "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20241210/41548_1199072.html"
   },
   {
     "id": "central-park-convergence",
@@ -93,7 +114,10 @@
     "height": 2048,
     "sourceUrl": "https://marvelrivals.gg/maps/central-park-convergence/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/central-park-convergence-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/central-park-convergence-layout-annotated.webp",
+    "location": "Empire of Eternal Night",
+    "fullName": "Empire of Eternal Night: Central Park",
+    "nameSourceUrl": "https://www.marvelrivals.com/"
   },
   {
     "id": "symbiotic-surface-convergence",
@@ -105,7 +129,10 @@
     "height": 1290,
     "sourceUrl": "https://marvelrivals.gg/maps/symbiotic-surface-convergence/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/symbiotic-surface-convergence-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/symbiotic-surface-convergence-layout-annotated.webp",
+    "location": "Klyntar",
+    "fullName": "Klyntar: Symbiotic Surface",
+    "nameSourceUrl": "https://www.marvelrivals.com/devdiaries/20241125/40954_1195811.html"
   },
   {
     "id": "heart-of-heaven-convergence",
@@ -117,7 +144,10 @@
     "height": 2048,
     "sourceUrl": "https://marvelrivals.gg/maps/heart-of-heaven-convergence/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/heart-of-heaven-convergence-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/heart-of-heaven-convergence-layout-annotated.webp",
+    "location": "K'un-Lun",
+    "fullName": "K'un-Lun: Heart of Heaven",
+    "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20250924/41548_1261216.html"
   },
   {
     "id": "royal-palace-domination",
@@ -129,7 +159,10 @@
     "height": 1364,
     "sourceUrl": "https://marvelrivals.gg/maps/royal-palace-domination/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/royal-palace-domination-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/royal-palace-domination-layout-annotated.webp",
+    "location": "Yggsgard",
+    "fullName": "Yggsgard: Royal Palace",
+    "nameSourceUrl": "https://www.marvelrivals.com/m/news/official/20240425/40185_1151866.html"
   },
   {
     "id": "birnin-t-challa-domination",
@@ -141,7 +174,10 @@
     "height": 2048,
     "sourceUrl": "https://marvelrivals.gg/maps/birnin-t-challa-domination/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/birnin-t-challa-domination-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/birnin-t-challa-domination-layout-annotated.webp",
+    "location": "Intergalactic Empire of Wakanda",
+    "fullName": "Intergalactic Empire of Wakanda: Birnin T'Challa",
+    "nameSourceUrl": "https://www.marvelrivals.com/devdiaries/20241125/40954_1195811.html"
   },
   {
     "id": "hell-s-heaven-domination",
@@ -153,7 +189,10 @@
     "height": 1845,
     "sourceUrl": "https://marvelrivals.gg/maps/hell-s-heaven-domination/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/hell-s-heaven-domination-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/hell-s-heaven-domination-layout-annotated.webp",
+    "location": "Hydra Charteris Base",
+    "fullName": "Hydra Charteris Base: Hell's Heaven",
+    "nameSourceUrl": "https://www.marvelrivals.com/devdiaries/20241125/40954_1195811.html"
   },
   {
     "id": "krakoa-domination",
@@ -165,7 +204,10 @@
     "height": 2048,
     "sourceUrl": "https://marvelrivals.gg/maps/krakoa-domination/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/krakoa-domination-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/krakoa-domination-layout-annotated.webp",
+    "location": "Hellfire Gala",
+    "fullName": "Hellfire Gala: Krakoa",
+    "nameSourceUrl": "https://www.marvelrivals.com/announcements/20250401/40955_1223993.html"
   },
   {
     "id": "celestial-husk-domination",
@@ -177,7 +219,10 @@
     "height": 2048,
     "sourceUrl": "https://marvelrivals.gg/maps/celestial-husk-domination/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/celestial-husk-domination-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/celestial-husk-domination-layout-annotated.webp",
+    "location": "Klyntar",
+    "fullName": "Klyntar: Celestial Husk",
+    "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20250704/41548_1244963.html"
   },
   {
     "id": "god-quarry-domination",
@@ -189,7 +234,10 @@
     "height": 1438,
     "sourceUrl": "https://marvelrivals.gg/maps/god-quarry-domination/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/god-quarry-domination-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/god-quarry-domination-layout-annotated.webp",
+    "location": "",
+    "fullName": "God Quarry",
+    "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20260923/41548_1314808.html"
   },
   {
     "id": "throne-of-knull-resource-rumble",
@@ -201,6 +249,9 @@
     "height": 1493,
     "sourceUrl": "https://marvelrivals.gg/maps/throne-of-knull-resource-rumble/",
     "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/throne-of-knull-resource-rumble-layout-annotated.webp"
+    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/throne-of-knull-resource-rumble-layout-annotated.webp",
+    "location": "Klyntar",
+    "fullName": "Klyntar: Throne of Knull",
+    "nameSourceUrl": "https://www.marvelrivals.com/gameupdate/20250819/41548_1254783.html"
   }
 ]

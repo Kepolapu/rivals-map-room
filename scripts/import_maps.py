@@ -21,6 +21,7 @@ from PIL import Image
 
 PROJECT = Path(__file__).resolve().parents[1]
 SOURCE = PROJECT / "source" / "maps-source.json"
+TITLES_SOURCE = PROJECT / "source" / "map-titles.json"
 DIST = PROJECT / "dist"
 MAPS = DIST / "maps"
 MANIFEST = DIST / "maps.json"
@@ -120,6 +121,15 @@ def main() -> int:
     ):
         raise ValueError("Map IDs must be unique URL-safe names")
 
+    titles = json.loads(TITLES_SOURCE.read_text(encoding="utf-8-sig"))
+    if set(titles) != set(ids):
+        raise ValueError("Full map titles must match the Competitive catalog")
+    for row in rows:
+        title = titles[row[0]]
+        expected = f"{title['location']}: {row[1]}" if title["location"] else row[1]
+        if title["fullName"] != expected or not title["nameSourceUrl"].startswith("https://www.marvelrivals.com/"):
+            raise ValueError(f"Invalid verified title for {row[0]}")
+
     MAPS.mkdir(parents=True, exist_ok=True)
     records = {}
     counts = {"downloaded": 0, "reused": 0, "unavailable": 0, "failed": 0}
@@ -133,7 +143,7 @@ def main() -> int:
             total_bytes += size
             print(f"{record['id']}: {status}", flush=True)
 
-    manifest = [records[map_id] for map_id in ids]
+    manifest = [{**records[map_id], **titles[map_id]} for map_id in ids]
     temporary_manifest = MANIFEST.with_suffix(".json.part")
     temporary_manifest.write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",

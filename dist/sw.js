@@ -1,7 +1,7 @@
 'use strict';
 
 const CACHE_PREFIX = `rivals-map-room-${encodeURIComponent(new URL(self.registration.scope).pathname)}-`;
-const CACHE_NAME = `${CACHE_PREFIX}v4`;
+const CACHE_NAME = `${CACHE_PREFIX}v5`;
 const SHELL_FILES = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest', 'maps.json', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png'];
 const scopeUrl = (path) => new URL(path, self.registration.scope).href;
 
