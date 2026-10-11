@@ -120,78 +120,6 @@
     "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/heart-of-heaven-convergence-layout-annotated.webp"
   },
   {
-    "id": "odin-s-archive-domination",
-    "name": "Odin's Archive",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/odin-s-archive-domination.webp",
-    "width": 2048,
-    "height": 1364,
-    "sourceUrl": "https://marvelrivals.gg/maps/odin-s-archive-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/odin-s-archive-domination-layout-annotated.webp"
-  },
-  {
-    "id": "bifrost-garden-domination",
-    "name": "Bifrost Garden",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/bifrost-garden-domination.webp",
-    "width": 2048,
-    "height": 955,
-    "sourceUrl": "https://marvelrivals.gg/maps/bifrost-garden-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/bifrost-garden-domination-layout-annotated.webp"
-  },
-  {
-    "id": "throne-room-domination",
-    "name": "Throne Room",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/throne-room-domination.webp",
-    "width": 2048,
-    "height": 857,
-    "sourceUrl": "https://marvelrivals.gg/maps/throne-room-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/throne-room-domination-layout-annotated.webp"
-  },
-  {
-    "id": "stellar-spaceport-domination",
-    "name": "Stellar Spaceport",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/stellar-spaceport-domination.webp",
-    "width": 1972,
-    "height": 2048,
-    "sourceUrl": "https://marvelrivals.gg/maps/stellar-spaceport-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/stellar-spaceport-domination-layout-annotated.webp"
-  },
-  {
-    "id": "imperial-institute-of-science-domination",
-    "name": "Imperial Institute of Science",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/imperial-institute-of-science-domination.webp",
-    "width": 849,
-    "height": 2048,
-    "sourceUrl": "https://marvelrivals.gg/maps/imperial-institute-of-science-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/imperial-institute-of-science-domination-layout-annotated.webp"
-  },
-  {
-    "id": "warrior-falls-domination",
-    "name": "Warrior Falls",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/warrior-falls-domination.webp",
-    "width": 1634,
-    "height": 2048,
-    "sourceUrl": "https://marvelrivals.gg/maps/warrior-falls-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/warrior-falls-domination-layout-annotated.webp"
-  },
-  {
     "id": "royal-palace-domination",
     "name": "Royal Palace",
     "mode": "Domination",
@@ -216,54 +144,6 @@
     "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/birnin-t-challa-domination-layout-annotated.webp"
   },
   {
-    "id": "frozen-airfield-domination",
-    "name": "Frozen Airfield",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/frozen-airfield-domination.webp",
-    "width": 2048,
-    "height": 1971,
-    "sourceUrl": "https://marvelrivals.gg/maps/frozen-airfield-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/frozen-airfield-domination-layout-annotated.webp"
-  },
-  {
-    "id": "super-soldier-factory-domination",
-    "name": "Super-Soldier Factory",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/super-soldier-factory-domination.webp",
-    "width": 827,
-    "height": 2048,
-    "sourceUrl": "https://marvelrivals.gg/maps/super-soldier-factory-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/super-soldier-factory-domination-layout-annotated.webp"
-  },
-  {
-    "id": "the-grove-domination",
-    "name": "The Grove",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/the-grove-domination.webp",
-    "width": 2048,
-    "height": 1038,
-    "sourceUrl": "https://marvelrivals.gg/maps/the-grove-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/the-grove-domination-layout-annotated.webp"
-  },
-  {
-    "id": "carousel-domination",
-    "name": "Carousel",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/carousel-domination.webp",
-    "width": 2048,
-    "height": 982,
-    "sourceUrl": "https://marvelrivals.gg/maps/carousel-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/carousel-domination-layout-annotated.webp"
-  },
-  {
     "id": "hell-s-heaven-domination",
     "name": "Hell's Heaven",
     "mode": "Domination",
@@ -274,54 +154,6 @@
     "sourceUrl": "https://marvelrivals.gg/maps/hell-s-heaven-domination/",
     "available": true,
     "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/hell-s-heaven-domination-layout-annotated.webp"
-  },
-  {
-    "id": "celestial-codex-domination",
-    "name": "Celestial Codex",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/celestial-codex-domination.webp",
-    "width": 2048,
-    "height": 937,
-    "sourceUrl": "https://marvelrivals.gg/maps/celestial-codex-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/celestial-codex-domination-layout-annotated.webp"
-  },
-  {
-    "id": "celestial-vault-domination",
-    "name": "Celestial Vault",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/celestial-vault-domination.webp",
-    "width": 1705,
-    "height": 2048,
-    "sourceUrl": "https://marvelrivals.gg/maps/celestial-vault-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/celestial-vault-domination-layout-annotated.webp"
-  },
-  {
-    "id": "celestial-hand-domination",
-    "name": "Celestial Hand",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/celestial-hand-domination.webp",
-    "width": 2048,
-    "height": 1096,
-    "sourceUrl": "https://marvelrivals.gg/maps/celestial-hand-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/celestial-hand-domination-layout-annotated.webp"
-  },
-  {
-    "id": "cradle-domination",
-    "name": "Cradle",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/cradle-domination.webp",
-    "width": 2048,
-    "height": 1044,
-    "sourceUrl": "https://marvelrivals.gg/maps/cradle-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/cradle-domination-layout-annotated.webp"
   },
   {
     "id": "krakoa-domination",
@@ -348,42 +180,6 @@
     "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/celestial-husk-domination-layout-annotated.webp"
   },
   {
-    "id": "halls-of-all-knowing-domination",
-    "name": "Halls of All-Knowing",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/halls-of-all-knowing-domination.webp",
-    "width": 2048,
-    "height": 1068,
-    "sourceUrl": "https://marvelrivals.gg/maps/halls-of-all-knowing-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/halls-of-all-knowing-domination-layout-annotated.webp"
-  },
-  {
-    "id": "house-of-ideas-domination",
-    "name": "House of Ideas",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/house-of-ideas-domination.webp",
-    "width": 1051,
-    "height": 2048,
-    "sourceUrl": "https://marvelrivals.gg/maps/house-of-ideas-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/house-of-ideas-domination-layout-annotated.webp"
-  },
-  {
-    "id": "confessional-eternity-domination",
-    "name": "Confessional Eternity",
-    "mode": "Domination",
-    "gameMode": "Domination",
-    "src": "maps/confessional-eternity-domination.webp",
-    "width": 2048,
-    "height": 992,
-    "sourceUrl": "https://marvelrivals.gg/maps/confessional-eternity-domination/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/confessional-eternity-domination-layout-annotated.webp"
-  },
-  {
     "id": "god-quarry-domination",
     "name": "God Quarry",
     "mode": "Domination",
@@ -406,65 +202,5 @@
     "sourceUrl": "https://marvelrivals.gg/maps/throne-of-knull-resource-rumble/",
     "available": true,
     "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/throne-of-knull-resource-rumble-layout-annotated.webp"
-  },
-  {
-    "id": "sanctum-sanctorum-doom-match",
-    "name": "Sanctum Sanctorum",
-    "mode": "Arcade",
-    "gameMode": "Doom Match",
-    "src": "maps/sanctum-sanctorum-doom-match.webp",
-    "width": 1915,
-    "height": 2048,
-    "sourceUrl": "https://marvelrivals.gg/maps/sanctum-sanctorum-doom-match/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/sanctum-sanctorum-doom-match-layout-annotated.webp"
-  },
-  {
-    "id": "ninomaru-conquest",
-    "name": "Ninomaru",
-    "mode": "Arcade",
-    "gameMode": "Conquest",
-    "src": "maps/ninomaru-conquest.webp",
-    "width": 1732,
-    "height": 2048,
-    "sourceUrl": "https://marvelrivals.gg/maps/ninomaru-conquest/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/ninomaru-conquest-layout-annotated.webp"
-  },
-  {
-    "id": "eldritch-monument-clone-rumble",
-    "name": "Eldritch Monument",
-    "mode": "Arcade",
-    "gameMode": "Clone Rumble",
-    "src": "maps/eldritch-monument-clone-rumble.webp",
-    "width": 2048,
-    "height": 720,
-    "sourceUrl": "https://marvelrivals.gg/maps/eldritch-monument-clone-rumble/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/eldritch-monument-clone-rumble-layout-annotated.webp"
-  },
-  {
-    "id": "blood-night-new-york-blood-hunt",
-    "name": "Blood-Night New York",
-    "mode": "Arcade",
-    "gameMode": "Blood Hunt",
-    "src": null,
-    "width": null,
-    "height": null,
-    "sourceUrl": "https://marvelrivals.gg/maps/blood-night-new-york-blood-hunt/",
-    "available": false,
-    "unavailableReason": "The source does not provide a map layout for Blood-Night New York."
-  },
-  {
-    "id": "shenloong-arena-bounty-annihilation-18-vs-18",
-    "name": "Shenloong Arena",
-    "mode": "Arcade",
-    "gameMode": "Bounty Annihilation (18 Vs. 18)",
-    "src": "maps/shenloong-arena-bounty-annihilation-18-vs-18.webp",
-    "width": 2048,
-    "height": 1449,
-    "sourceUrl": "https://marvelrivals.gg/maps/shenloong-arena-bounty-annihilation-18-vs-18/",
-    "available": true,
-    "assetSourceUrl": "https://static.dotgg.gg/rivals/maps/shenloong-arena-bounty-annihilation-18-vs-18-layout-annotated.webp"
   }
 ]

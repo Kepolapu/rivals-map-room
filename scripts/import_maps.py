@@ -24,10 +24,6 @@ SOURCE = PROJECT / "source" / "maps-source.json"
 DIST = PROJECT / "dist"
 MAPS = DIST / "maps"
 MANIFEST = DIST / "maps.json"
-UNAVAILABLE_ID = "blood-night-new-york-blood-hunt"
-UNAVAILABLE_REASON = (
-    "The source does not provide a map layout for Blood-Night New York."
-)
 WORKERS = 6
 RETRIES = 3
 
@@ -63,10 +59,6 @@ def record_for(row: list[str]) -> dict:
 def import_map(row: list[str]) -> tuple[dict, str, int]:
     record = record_for(row)
     map_id = record["id"]
-    if map_id == UNAVAILABLE_ID:
-        record["unavailableReason"] = UNAVAILABLE_REASON
-        return record, "unavailable", 0
-
     asset_url = (
         f"https://static.dotgg.gg/rivals/maps/{map_id}-layout-annotated.webp"
     )
@@ -146,6 +138,7 @@ def main() -> int:
     temporary_manifest.write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
+        newline="\n",
     )
     os.replace(temporary_manifest, MANIFEST)
     print(

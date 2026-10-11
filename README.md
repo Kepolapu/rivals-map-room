@@ -17,13 +17,13 @@ Open the printed local URL. HTTPS or localhost is required for service workers a
 
 ## Map data
 
-The catalog preserves all 39 entries from [MarvelRivals.gg](https://marvelrivals.gg/maps/), including individual Domination arenas and the source's combined map entries. There are 38 available annotated WebP layouts. The source provides no layout for Blood-Night New York; its tile is disabled, with the reason in its accessible label and tooltip.
+The catalog contains only the 17 entries tagged **Competitive** on [MarvelRivals.gg](https://marvelrivals.gg/maps/): 5 Convoy, 5 Convergence, 6 Domination and 1 Resource Rumble. Every entry has an annotated WebP layout. Other maps and their files are excluded.
 
-`dist/maps/<id>.webp` contains one complete original annotated image per available map. `dist/maps.json` supplies the catalog, dimensions and exact source links. `source/maps-source.json` records the inspected source entries. No map geometry, health packs or routes are invented.
+`dist/maps/<id>.webp` contains one complete original annotated image per map. `dist/maps.json` supplies the catalog, dimensions and exact source links. `source/maps-source.json` records the inspected entries carrying the Competitive tag. No map geometry, health packs or routes are invented.
 
 To retrieve the verified source files again, install Pillow for Python and run `npm run import:maps`. The importer validates the images and reuses existing valid files. The source asset URLs were read from each map page's Full-size map link.
 
-All available layouts save automatically in the background after the app loads online. Keep the app open while the first download finishes. No download progress or success message interrupts the title grid. A download error explains that saving will retry when the connection returns or the app reopens. The unavailable source entry cannot be downloaded. Browser storage may be evicted by the device; missing app files and maps are checked and restored on launch. Cached map images are retained across updates when device storage allows.
+All layouts save automatically in the background after the app loads online. Keep the app open while the first download finishes. No download progress or success message interrupts the title grid. A download error explains that saving will retry when the connection returns or the app reopens. Browser storage may be evicted by the device; missing app files and maps are checked and restored on launch. Cached map images that remain in the catalog are retained across updates when device storage allows.
 
 Map imagery and annotations are credited to MarvelRivals.gg / DotGG. Marvel Rivals belongs to Marvel and NetEase Games. This is an unofficial map viewer.
 
