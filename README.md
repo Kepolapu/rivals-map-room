@@ -1,6 +1,6 @@
 # Rivals Map Room
 
-A buildless progressive web app with a grid of large map-title tiles. Choose a title to inspect one annotated map fullscreen. All source annotations are baked into the map file. The viewer supports zooming, panning, fitting the whole map and returning to the grid.
+A buildless progressive web app with a grid of large map-title tiles. Each card shows the complete map title and its game mode. Choose a title to inspect one annotated map fullscreen. All source annotations are baked into the map file. The viewer supports zooming, panning, fitting the whole map and returning to the grid.
 
 [Source repository](https://github.com/Kepolapu/rivals-map-room) · [GitHub Pages](https://kepolapu.github.io/rivals-map-room/)
 

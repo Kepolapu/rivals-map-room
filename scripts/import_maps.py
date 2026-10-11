@@ -46,11 +46,12 @@ def dimensions(data: bytes) -> tuple[int, int]:
 
 
 def record_for(row: list[str]) -> dict:
-    map_id, name, mode = row
+    map_id, name, mode = row[:3]
     return {
         "id": map_id,
         "name": name,
         "mode": mode,
+        "gameMode": row[3] if len(row) == 4 else mode,
         "src": None,
         "width": None,
         "height": None,
@@ -116,11 +117,11 @@ def main() -> int:
     rows = json.loads(SOURCE.read_text(encoding="utf-8-sig"))
     if not isinstance(rows, list) or any(
         not isinstance(row, list)
-        or len(row) != 3
+        or len(row) not in (3, 4)
         or not all(isinstance(value, str) and value for value in row)
         for row in rows
     ):
-        raise ValueError("Expected a list of [id, name, mode] entries")
+        raise ValueError("Expected [id, name, category] entries with an optional game mode")
     ids = [row[0] for row in rows]
     if len(ids) != len(set(ids)) or any(
         not map_id.replace("-", "").isalnum() for map_id in ids

@@ -26,11 +26,12 @@
   function renderCatalog() {
     const fragment = document.createDocumentFragment();
     for (const map of state.maps) {
-      const tile = element('button', `map-tile${map.available ? '' : ' unavailable-tile'}`, map.name);
+      const tile = element('button', `map-tile${map.available ? '' : ' unavailable-tile'}`);
       tile.type = 'button';
       tile.dataset.mapId = map.id;
+      tile.append(element('span', 'tile-title', map.name), element('span', 'tile-mode', map.gameMode || map.mode));
       if (map.available) {
-        tile.setAttribute('aria-label', `Open ${map.name}, ${map.mode}, with all map details`);
+        tile.setAttribute('aria-label', `Open ${map.name}, ${map.gameMode || map.mode}, with all map details`);
         tile.addEventListener('click', () => openMap(map, { fullscreen: true, route: true, trigger: tile }));
       } else {
         const reason = map.unavailableReason || 'The source does not provide an annotated map layout.';
@@ -119,9 +120,9 @@
     ui.gallery.inert = true;
     document.body.style.overflow = 'hidden';
     ui.title.textContent = map.name;
-    ui.mode.textContent = `${map.mode} / ALL DETAILS`;
+    ui.mode.textContent = `${map.gameMode || map.mode} / ALL DETAILS`;
     ui.image.hidden = true;
-    ui.image.alt = `${map.name}, complete annotated ${map.mode} map`;
+    ui.image.alt = `${map.name}, complete annotated ${map.gameMode || map.mode} map`;
     ui.zoomLevel.textContent = '—';
     setZoomControls(false);
     setViewerMessage('Loading map…');
