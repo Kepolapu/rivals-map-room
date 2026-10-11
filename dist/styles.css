@@ -17,7 +17,7 @@ button:focus-visible, .map-stage:focus-visible { outline: 2px solid var(--accent
 svg { width: 20px; height: 20px; flex-shrink: 0; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
 .site-shell { max-width: 1660px; margin: auto; padding: 32px; padding-top: max(32px, env(safe-area-inset-top)); padding-bottom: max(32px, env(safe-area-inset-bottom)); }
 .map-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
-.map-tile { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; min-width: 0; min-height: 104px; padding: 14px 22px; background: var(--panel); border: 1px solid #343a3b; border-radius: 7px; font-size: clamp(23px, 2.1vw, 32px); font-weight: 650; line-height: 1.2; letter-spacing: -.55px; text-align: center; overflow-wrap: anywhere; transition: background .18s, border-color .18s, transform .18s, color .18s; }
+.map-tile { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-width: 0; min-height: 0; padding: 5px 22px; background: var(--panel); border: 1px solid #343a3b; border-radius: 7px; font-size: clamp(23px, 2.1vw, 32px); font-weight: 650; line-height: 1.2; letter-spacing: -.55px; text-align: center; overflow-wrap: anywhere; transition: background .18s, border-color .18s, transform .18s, color .18s; }
 .tile-title { display: block; width: 100%; white-space: normal; overflow: visible; }
 .tile-mode { display: block; max-width: 100%; color: #aab3b0; font: 600 12px/1.45 var(--font); letter-spacing: .07em; text-transform: uppercase; white-space: normal; }
 .map-tile:hover:not(:disabled) { background: #252a26; border-color: #c4b65c; color: var(--accent); transform: translateY(-2px); }
@@ -61,12 +61,12 @@ svg { width: 20px; height: 20px; flex-shrink: 0; fill: none; stroke: currentColo
 @media (max-width: 1050px) {
   .map-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .site-shell { padding: 24px; }
-  .map-tile { min-height: 100px; font-size: 25px; }
+  .map-tile { font-size: 25px; }
 }
 @media (max-width: 680px) {
   .site-shell { padding: 16px; padding-top: max(16px, env(safe-area-inset-top)); padding-bottom: max(16px, env(safe-area-inset-bottom)); }
   .map-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
-  .map-tile { min-height: 90px; padding: 10px 13px; font-size: clamp(19px, 5.4vw, 25px); letter-spacing: -.3px; }
+  .map-tile { padding: 5px 13px; font-size: clamp(19px, 5.4vw, 25px); letter-spacing: -.3px; }
   .viewer-topbar { padding-left: 14px; padding-right: 14px; gap: 12px; }
   .viewer-back { font-size: 10px; padding: 9px 10px; min-height: 39px; }
   .viewer-heading h2 { font-size: 19px; }
